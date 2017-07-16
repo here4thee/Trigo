@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Trigo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="init_times">0</string>
+    <string name="init_whatsup">Monogamy.</string>
+    <string name="surprise_e">n ss!w !</string>
+    <string name="surprise_c">春风十里不如你。</string>
+    <string name="find_error">Error 404...</string>
+
+</resources>

@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SignupActivity" >
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="26dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/signup_bubble"
+                android:layout_marginTop="26dp"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/bubble" />
+
+            <EditText
+                android:id="@+id/signup_email"
+                style="@style/EditText"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:ems="10"
+                android:hint="用户名"
+                android:textColorHint="#bebfe4"
+                android:textColor="#FFFFFF"
+                android:gravity="center_vertical"
+                android:paddingStart="11dp"
+                android:inputType="textEmailAddress" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/signup_password"
+                style="@style/EditText"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:layout_marginTop="11dp"
+                android:ems="10"
+                android:hint="密码"
+                android:textColorHint="#bebfe4"
+                android:textColor="#FFFFFF"
+                android:gravity="center_vertical"
+                android:paddingStart="11dp"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/signup_signup_button"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:layout_marginTop="11dp"
+                android:background="@drawable/button"
+                android:textColor="#8f81cc"
+                android:text="注册" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

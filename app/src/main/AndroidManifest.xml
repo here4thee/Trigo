@@ -1,0 +1,46 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="dengdeng.xm.trigo">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="dengdeng.xm.trigo.MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="dengdeng.xm.trigo.SignupActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dengdeng.xm.trigo.TabSelActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dengdeng.xm.trigo.MonitorActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dengdeng.xm.trigo.MusicActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dengdeng.xm.trigo.MoreActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>
